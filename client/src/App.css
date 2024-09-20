@@ -1,0 +1,18 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+  z-index: 10001 !important;
+}
+.section-container{
+    @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+}
+.subtitle{
+   @apply text-red-600 uppercase tracking-wide font-medium text-lg
+}
+.title{
+  @apply text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug;
+}
+.heartStar{
+  border-radius: 0px 28px 0px 28px;
+}
